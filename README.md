@@ -25,4 +25,4 @@ cmake -S . -B 00.BUILD -G Ninja
 -- Build files have been written to: /Users/objectx/Workspace/GitHub/cmake-function-test/00.BUILD
 ```
 
-`call1` in `dir1` never called! (because CMake's function lives in the single scope)
+`child_fn` in `dir1` never called! (because CMake's function lives in the single scope)
